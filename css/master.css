@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 1200px;
+  margin: auto;
+}
+header{
+  background-color: yellow;
+  height: 150px;
+  width: 100%;
+  margin-top: 10px;
+}
+.conteiner::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.conteiner{
+  margin: 20px 0px;
+}
+.squarel{
+  float: left;
+  width: 25%;
+  height: 350px;
+  background-color: #c6a0cb;
+}
+.squarec{
+  float: left;
+  width: calc(50% - 20px);
+  height: 500px;
+  background-color: #610a4c;
+  margin: 0px 10px;
+}
+.squarera{
+  float: left;
+  width: 25%;
+  height: 230px;
+  background-color: #c6a0cb;
+}
+.squarerb{
+  float:right;
+  width: 25%;
+  height: 230px;
+  background-color: #c6a0cb;
+  margin-top: 10px;
+}
+footer{
+  background-color: #99ccf4;
+  width: 100%;
+  height: 75px;
+}
